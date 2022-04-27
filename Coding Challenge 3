@@ -1,0 +1,9 @@
+function FirstReverse(str) {
+    let updatedString;
+
+    for (let i = str.length-1; i >= 0; i--) {
+        updatedString += str[i];
+    }
+    return updatedString;
+}
+
