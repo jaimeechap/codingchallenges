@@ -1,0 +1,14 @@
+function LongestWord(sen) { 
+
+  
+  let senSplit = sen.split(" ");
+  let longWord = "";
+
+  for (let i = 0; i < senSplit.length; i++) {
+    if (senSplit[i].length > longWord) {
+      longWord = senSplit[i];
+    }
+  }
+  return longWord; 
+}
+   
