@@ -1,0 +1,13 @@
+function addUp(num) {
+	return num * (num + 1) / 2;
+}
+
+--OR recursively--
+
+function addUp(num) {
+	if (num === 0) {
+		return 0;
+	} else {
+	return num + addUp(num-1);
+  }
+}
